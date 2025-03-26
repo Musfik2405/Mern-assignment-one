@@ -112,8 +112,8 @@ body{
     border-radius: 10px;
     padding: 60px 43px 37px 39px;
     position: relative;
-    top: -596px;
-    left: 980px;
+    top: -546px;
+    left: 680px;
 }
 
 .discover-start{
@@ -267,6 +267,7 @@ body{
     align-items: center;
     margin-left: 170px;
     margin-right: 102px;
+    margin-top: 32px;
    
 }
 

@@ -1,0 +1,135 @@
+/* shared style */
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow-x: none;
+}
+
+
+/* shop-section related style */
+.shop-name{
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 0px;
+}
+
+.shop-desc{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+}
+
+.shop-text{
+    position: relative;
+    top: -250px;
+    margin: 0 auto;
+    text-align: center;
+}
+.shop-start{
+    max-height: 325px;
+}
+/* filter secetion Related style */
+
+.filter-name{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+
+}
+
+.filter{
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgba(249, 241, 231, 1);
+    height: 100px;
+    margin-top:0px;
+   
+}
+.filter-con{
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.show-text{
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+    text-align: center;
+    border: none;
+    padding-right: 5px;
+    outline: none;
+}
+
+.default{
+    width: 160px;
+    height: 50px;
+    padding-left: 30px;
+    border: none;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+.one-btn{
+    background-color: rgba(249, 241, 231, 1);
+    color: black;
+    width: 60px;
+    height: 60px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.one-btn:hover{
+    background-color: rgba(184, 142, 47, 1);
+    color: white;
+
+}
+.one-btn-section{
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+    margin-top: 70px;
+    margin-bottom: 85px;
+}
+
+.next-btn{
+    width: 98px;
+}
+
+/* hight section related style */
+
+.high-icons{
+    width: 60px;
+    height: 60px;
+}
+
+.high-con {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.high-section{
+    gap: 55px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(250, 243, 234, 1);
+    height: 270px;
+}
+
+.high-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgba(36, 36, 36, 1);
+    margin-bottom: 0px;
+}
+
+.high-desc{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgba(137, 137, 137, 1);
+    margin-top: 0px;
+}

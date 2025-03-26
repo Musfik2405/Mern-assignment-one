@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Document</title>
     <link rel="stylesheet" href="CSS/homeStyle.css">
+    <link rel="stylesheet" href="CSS/shopStyle.css">
+    
 </head>
 <body class="poppins-regular ">
     <header>
@@ -37,67 +39,33 @@
     </header>
 
     <main>
+        <section class="shop-start">
+            <img src="image/Rectangle 1.png" alt="" class="shop-bg">
+           <div class="shop-text">
+            <h3 class="shop-name">Shop</h3>
+            <p class="shop-desc">Home > Shop</p>
+           </div>
+        </section>
 
-        <section class="discover-section">
+        <section class="filter display-flex">
+            <div class="filter-con display-flex">
+                <img src="image/system-uicons_filtering.png" alt="" class="filter-img" width="16px" height="16px">
+                <p class="filter-name">Filter</p>
+                <img src="image/ci_grid-big-round.png" alt="" class="filter-img" width="16px" height="16px">
+                <img src="image/bi_view-list.png" alt="" class="filter-img" width="16px" height="16px">
 
-            <img src="image/scandinavian-interior-mockup-wall-decal-background 1.png" alt="" class="discover-img">
-            <div class="disover-container ">
-                <h6 class="discover-start">Nev Arival</h6>
-                <h3 class="discover-title">Discover Our <br> New Collection</h3>
+                <p class="filter-name">Showing 1-16 of 32 results</p>
 
-                <p class="discover-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br> elit tellus, luctus nec ullamcorper mattis.</p>
-                <button class="p-btn">BUY NOW</button>
+            </div>
+            <div class="filter-con display-flex">
+                <p class="filter-name">Show</p>
+                <input type="text" name="" id="" class="show-text" placeholder="16">
+                <p class="filter-name">Short by</p>
+                <input type="text" name="" id="" class="default" placeholder="Default">
+
             </div>
 
         </section>
-
-        <section class="browse">
-            <h3 class="browse-title">Browse The Range</h3>
-            <p class="browse-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div class="browse-container display-flex">
-                <div class="browse-con">
-                    <img src="image/Mask Group.png" alt="" class="browse-img">
-                    <h3 class="browse-name">Dining</h3>
-                </div>
-                <div class="browse-con">
-                    <img src="image/Image-living room.png" alt="" class="browse-img">
-                    <h3 class="browse-name">Living</h3>
-                </div>
-                <div class="browse-con">
-                    <img src="image/Mask Group (1).png" alt="" class="browse-img">
-                    <h3 class="browse-name">Bedroom</h3>
-                </div>
-            </div>
-        </section>
-
-        <!-- <div class="afterhover">
-            <button class="add-btn">
-                Add to cart
-            </button>
-
-            <div class="after-con display-flex">
-                <div class="af display-flex">
-                    <img src="image/gridicons_share.png" alt="" class="share-img" width="12px" height="12px">
-                    <h3 class="after-title">Share</h3>
-            
-                </div>
-
-                <div class="af display-flex">
-                    <img src="image/compare-svgrepo-com 1.png" alt="" class="compare-img" width="12px" height="12px">
-                    <h3 class="after-title">Compare</h3>
-            
-                </div>
-
-                <div class="af display-flex">
-                    <img src="image/Heart.png" alt="" class="heart-img" width="12px" height="12px">
-                    <h3 class="after-title">Like</h3>
-            
-                </div>
-
-                
-            
-            </div>
-        </div> -->
 
         <section class="product">
 
@@ -414,92 +382,367 @@
 
                 </div>
 
-              
-
             </div>
+
+            <div class="product-section">
+                <div class="product-container">
+                    <img src="image/image 1.png" alt="" class="product-img">
+                    <h3 class="product-name">Syltherine</h3>
+                    <p class="product-desc">Stylish cafe chair</p>
+                    <div class="price display-flex">
+                    <p class="product-price">Rp 2.500.000</p>
+                    <p class="old-price"><s>Rp 3.500.000</s></p>
+
+                    </div>
+
+                    <div class="afterhover">
+                        <button class="add-btn">
+                            Add to cart
+                        </button>
             
-            <div class="btn-show display-flex">
-                <button class="secondary-btn ">Show More</button>
-            </div>
-
-        </section>
-
-
-        <div class="inner">
-            <p class="inner-desc"><span>01<hr style="width: 27px; display: inline-block; border: 1px solid black; margin: 0;"></span> Bed Room</p>
-            <h3 class="inner-title">Inner Peace</h3>
-        </div>
-
-        <section class="beautiful">
-            <!-- <div class="beautiful-section">
-                <h3 class="beautiful-title">50+ Beautiful rooms <br>
-                    inspiration</h3>
-
-                    <p class="beautiful-desc">Our designer already made a lot of beautiful <br> prototipe of rooms that inspire you</p>
-
-                    <button class="pn-btn">Explore More</button>
-
-                    
-            </div> -->
-            <div class="beautiful-container">
-                <div class="beautiful-section">
-                    <h3 class="beautiful-title">50+ Beautiful rooms <br>
-                        inspiration</h3>
-    
-                        <p class="beautiful-desc">Our designer already made a lot of beautiful <br> prototipe of rooms that inspire you</p>
-    
-                        <button class="pn-btn">Explore More</button>
-    
+                        <div class="after-con display-flex">
+                            <div class="af display-flex">
+                                <img src="image/gridicons_share.png" alt="" class="share-img" width="12px" height="12px">
+                                <h3 class="after-title">Share</h3>
                         
+                            </div>
+            
+                            <div class="af display-flex">
+                                <img src="image/compare-svgrepo-com 1.png" alt="" class="compare-img" width="12px" height="12px">
+                                <h3 class="after-title">Compare</h3>
+                        
+                            </div>
+            
+                            <div class="af display-flex">
+                                <img src="image/Heart.png" alt="" class="heart-img" width="12px" height="12px">
+                                <h3 class="after-title">Like</h3>
+                        
+                            </div>
+            
+                            
+                        
+                        </div>
+                    </div>
                 </div>
 
-                <img src="image/Rectangle 24.png" alt="" class="beautiful-img">
-                <img src="image/Rectangle 25.png" alt="" class="beautiful-img">
-                <img src="image/Rectangle 26.png" alt="" class="beautiful-img extra-img">
-            </div>
+                <div class="product-container">
+                    <img src="image/Images (3).png" alt="" class="product-img">
+                    <h3 class="product-name">Syltherine</h3>
+                    <p class="product-desc">Stylish cafe chair</p>
+                    <p class="product-price">Rp 2.500.000</p>
+                    
 
-            <div class="multiple-dot">
-                <input type="radio" name="0" id="" class="raddio" >
-                <input type="radio" name="0" id="" class="raddio" >
-                <input type="radio" name="0" id="" class="raddio" >
-                <input type="radio" name="0" id="" class="raddio" >
-            </div>
-            <button class="arrow-btn display-flex">
-                <img src="image/Vector 1.png" alt="" width="24px" height="24px">
-            </button>
+                    <div class="afterhover">
+                        <button class="add-btn">
+                            Add to cart
+                        </button>
+            
+                        <div class="after-con display-flex">
+                            <div class="af display-flex">
+                                <img src="image/gridicons_share.png" alt="" class="share-img" width="12px" height="12px">
+                                <h3 class="after-title">Share</h3>
+                        
+                            </div>
+            
+                            <div class="af display-flex">
+                                <img src="image/compare-svgrepo-com 1.png" alt="" class="compare-img" width="12px" height="12px">
+                                <h3 class="after-title">Compare</h3>
+                        
+                            </div>
+            
+                            <div class="af display-flex">
+                                <img src="image/Heart.png" alt="" class="heart-img" width="12px" height="12px">
+                                <h3 class="after-title">Like</h3>
+                        
+                            </div>
+            
+                            
+                        
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="product-container">
+                    <img src="image/image 3.png" alt="" class="product-img">
+                    <h3 class="product-name">Lolito</h3>
+                    <p class="product-desc">Luxury big sofa</p>
+                    <div class="price display-flex">
+
+                        <p class="product-price">Rp 7.000.000</p>
+                        <p class="old-price"><s>Rp 14.000.000</s></p>
+    
+                        </div>
+
+                        <div class="afterhover">
+                            <button class="add-btn">
+                                Add to cart
+                            </button>
+                
+                            <div class="after-con display-flex">
+                                <div class="af display-flex">
+                                    <img src="image/gridicons_share.png" alt="" class="share-img" width="12px" height="12px">
+                                    <h3 class="after-title">Share</h3>
+                            
+                                </div>
+                
+                                <div class="af display-flex">
+                                    <img src="image/compare-svgrepo-com 1.png" alt="" class="compare-img" width="12px" height="12px">
+                                    <h3 class="after-title">Compare</h3>
+                            
+                                </div>
+                
+                                <div class="af display-flex">
+                                    <img src="image/Heart.png" alt="" class="heart-img" width="12px" height="12px">
+                                    <h3 class="after-title">Like</h3>
+                            
+                                </div>
+                
+                                
+                            
+                            </div>
+                        </div>
+
+                </div>
+
+                <div class="product-container">
+                    <img src="image/Images.png" alt="" class="product-img">
+                    <h3 class="product-name">Syltherine</h3>
+                    <p class="product-desc">Stylish cafe chair</p>
+                    <p class="product-price">Rp 2.500.000</p>
+                    <!-- <p class="old-price">Rp 3.500.000</p> -->
+
+                    <div class="afterhover">
+                        <button class="add-btn">
+                            Add to cart
+                        </button>
+            
+                        <div class="after-con display-flex">
+                            <div class="af display-flex">
+                                <img src="image/gridicons_share.png" alt="" class="share-img" width="12px" height="12px">
+                                <h3 class="after-title">Share</h3>
+                        
+                            </div>
+            
+                            <div class="af display-flex">
+                                <img src="image/compare-svgrepo-com 1.png" alt="" class="compare-img" width="12px" height="12px">
+                                <h3 class="after-title">Compare</h3>
+                        
+                            </div>
+            
+                            <div class="af display-flex">
+                                <img src="image/Heart.png" alt="" class="heart-img" width="12px" height="12px">
+                                <h3 class="after-title">Like</h3>
+                        
+                            </div>
+            
+                            
+                        
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="product-container">
+                    <img src="image/Images (2).png" alt="" class="product-img">
+                    <h3 class="product-name">Syltherine</h3>
+                    <p class="product-desc">Stylish cafe chair</p>
+                    <p class="product-price">Rp 2.500.000</p>
+                    <!-- <p class="old-price">Rp 3.500.000</p> -->
+
+                    <div class="afterhover">
+                        <button class="add-btn">
+                            Add to cart
+                        </button>
+            
+                        <div class="after-con display-flex">
+                            <div class="af display-flex">
+                                <img src="image/gridicons_share.png" alt="" class="share-img" width="12px" height="12px">
+                                <h3 class="after-title">Share</h3>
+                        
+                            </div>
+            
+                            <div class="af display-flex">
+                                <img src="image/compare-svgrepo-com 1.png" alt="" class="compare-img" width="12px" height="12px">
+                                <h3 class="after-title">Compare</h3>
+                        
+                            </div>
+            
+                            <div class="af display-flex">
+                                <img src="image/Heart.png" alt="" class="heart-img" width="12px" height="12px">
+                                <h3 class="after-title">Like</h3>
+                        
+                            </div>
+            
+                            
+                        
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="product-container">
+                    <img src="image/image 6.png" alt="" class="product-img">
+                    <h3 class="product-name">Syltherine</h3>
+                    <p class="product-desc">Stylish cafe chair</p>
+                    <p class="product-price">Rp 2.500.000</p>
+                    <!-- <p class="old-price">Rp 3.500.000</p> -->
+
+                    <div class="afterhover">
+                        <button class="add-btn">
+                            Add to cart
+                        </button>
+            
+                        <div class="after-con display-flex">
+                            <div class="af display-flex">
+                                <img src="image/gridicons_share.png" alt="" class="share-img" width="12px" height="12px">
+                                <h3 class="after-title">Share</h3>
+                        
+                            </div>
+            
+                            <div class="af display-flex">
+                                <img src="image/compare-svgrepo-com 1.png" alt="" class="compare-img" width="12px" height="12px">
+                                <h3 class="after-title">Compare</h3>
+                        
+                            </div>
+            
+                            <div class="af display-flex">
+                                <img src="image/Heart.png" alt="" class="heart-img" width="12px" height="12px">
+                                <h3 class="after-title">Like</h3>
+                        
+                            </div>
+            
+                            
+                        
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="product-container">
+                    <img src="image/Images (1).png" alt="" class="product-img">
+                    <h3 class="product-name">Syltherine</h3>
+                    <p class="product-desc">Stylish cafe chair</p>
+                    <p class="product-price">Rp 2.500.000</p>
+                    <!-- <p class="old-price">Rp 3.500.000</p> -->
+
+                    <div class="afterhover">
+                        <button class="add-btn">
+                            Add to cart
+                        </button>
+            
+                        <div class="after-con display-flex">
+                            <div class="af display-flex">
+                                <img src="image/gridicons_share.png" alt="" class="share-img" width="12px" height="12px">
+                                <h3 class="after-title">Share</h3>
+                        
+                            </div>
+            
+                            <div class="af display-flex">
+                                <img src="image/compare-svgrepo-com 1.png" alt="" class="compare-img" width="12px" height="12px">
+                                <h3 class="after-title">Compare</h3>
+                        
+                            </div>
+            
+                            <div class="af display-flex">
+                                <img src="image/Heart.png" alt="" class="heart-img" width="12px" height="12px">
+                                <h3 class="after-title">Like</h3>
+                        
+                            </div>
+            
+                            
+                        
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="product-container">
+                    <img src="image/image 8.png" alt="" class="product-img">
+                    <h3 class="product-name">Syltherine</h3>
+                    <p class="product-desc">Stylish cafe chair</p>
+                    <p class="product-price">Rp 2.500.000</p>
+                    <!-- <p class="old-price">Rp 3.500.000</p> -->
+
+                    <div class="afterhover">
+                        <button class="add-btn">
+                            Add to cart
+                        </button>
+            
+                        <div class="after-con display-flex">
+                            <div class="af display-flex">
+                                <img src="image/gridicons_share.png" alt="" class="share-img" width="12px" height="12px">
+                                <h3 class="after-title">Share</h3>
+                        
+                            </div>
+            
+                            <div class="af display-flex">
+                                <img src="image/compare-svgrepo-com 1.png" alt="" class="compare-img" width="12px" height="12px">
+                                <h3 class="after-title">Compare</h3>
+                        
+                            </div>
+            
+                            <div class="af display-flex">
+                                <img src="image/Heart.png" alt="" class="heart-img" width="12px" height="12px">
+                                <h3 class="after-title">Like</h3>
+                        
+                            </div>
+            
+                            
+                        
+                        </div>
+                    </div>
+
+                </div>
+
+              </div>
+            
         </section>
+        
+      <section class="one-btn-section display-flex">
+        <button class="one-btn">1</button>
+        <button class="one-btn">2</button>
+        <button class="one-btn">3</button>
+        <button class="one-btn next-btn">Next</button>
+      </section>
 
-        <section class="fun-section">
+        <section class="high-section display-flex">  
 
-            <p class="fun-start">Share your setup with</p>
-            <h3 class="fun-title">#FuniroFurniture</h3>
+            <div class="high-con display-flex">
+                <img src="image/Group.png" alt="" class="high-icons">
 
-            <div class="fun-container">
-                <div class="images-first">
-                    <img src="image/Rectangle 36.png" alt="" class="fun-img img-seven">
-                    <img src="image/Rectangle 38.png" alt="" class="fun-img img-one">
-                    <img src="image/Rectangle 37.png" alt="" class="fun-img img-eight">
-                    <img src="image/Rectangle 39.png" alt="" class="fun-img img-nine">
-                </div>
-                <div class="images-second">
-                    <img src="image/Rectangle 40.png" alt="" class="fun-img img-two">
-                </div>
-                <div class="images-third">
-                    <img src="image/Rectangle 43.png" alt="" class="fun-img img-three">
-                    <img src="image/Rectangle 45.png" alt="" class="fun-img img-four">
-                    <img src="image/Rectangle 41.png" alt="" class="fun-img img-five">
-                    <img src="image/Rectangle 44.png" alt="" class="fun-img img-six">
+                <div class="high-text">
+                    <h3 class="high-title">High Quality</h3>
+                    <p class="high-desc">crafted from top materials</p>
                 </div>
             </div>
+            <div class="high-con display-flex"><img src="image/Group.png" alt="" class="high-icons">
 
-        </section>
+                <div class="high-text ">
+                    <h3 class="high-title">High Quality</h3>
+                    <p class="high-desc">crafted from top materials</p>
+                </div></div>
+            <div class="high-con display-flex"><img src="image/Group.png" alt="" class="high-icons">
+
+                <div class="high-text">
+                    <h3 class="high-title">High Quality</h3>
+                    <p class="high-desc">crafted from top materials</p>
+                </div></div>
+            <div class="high-con display-flex"><img src="image/Group.png" alt="" class="high-icons">
+
+                <div class="high-text">
+                    <h3 class="high-title">High Quality</h3>
+                    <p class="high-desc">crafted from top materials</p>
+                </div></div>
 
         
 
+        </section>
+       
     </main>
 
     <footer>
-        <hr class="hr-style-full">
+       
 
         <section class="footer-main">
             <div class="funiro-section">
