@@ -661,12 +661,14 @@ footer{
     .fun-container, .images-first, .images-second, .images-third{
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
-        
+        justify-content: center;
+        align-items: center;
         
     }
     .img-seven{
         max-height: 382px;
         margin: 0 auto;
+        display: none;
     }
     .img-one, .img-two, .img-three, .img-four, .img-five, .img-six,
     .img-eight, .img-nine
@@ -679,10 +681,11 @@ footer{
         bottom: 0px;
         margin-left: auto;
         margin-right: auto;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        /* padding-left: 0.5rem;
+        padding-right: 0.5rem; */
         margin-top: 0px;
         margin: 0 auto;
+        /* width: 100%; */
 
     }
     .footer-main{
