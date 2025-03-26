@@ -28,6 +28,7 @@
 body{
     max-width: 1440px;
     margin: 0 auto;
+    overflow-x: none;
 }
 
 
@@ -181,11 +182,56 @@ body{
 .product-container{
     background-color: rgba(244, 245, 247, 1);
     max-width: 285px;
+    position: relative;
 
 
 }
-.product-container:hover{
-    background-color: rgba(58, 58, 58, 0.25);
+.product-container:hover .afterhover{
+    /* background-color: rgba(58, 58, 58, 0.25); */
+    visibility: visible;
+}
+
+
+.add-btn{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(184, 142, 47, 1);
+    background-color: white;
+    padding: 12px 52px;
+    border: none;
+
+}
+.after-title{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+.afterhover{
+    visibility: hidden;
+    background-color: rgba(58, 58, 58, 1);
+    width: 285px;
+    position: absolute;
+    opacity: .8;
+    top: 0px;
+    height: 235px;
+    padding-top: 200px;
+    text-align: center;
+    flex-direction: row;
+    
+    
+}
+.af-con{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 285px;
+
+}
+.af{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .product-name{
