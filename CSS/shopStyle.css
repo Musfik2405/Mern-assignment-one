@@ -117,7 +117,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgba(250, 243, 234, 1);
-    height: 270px;
+    max-height: 270px;
 }
 
 .high-title{
@@ -132,4 +132,20 @@ body{
     font-weight: 500;
     color: rgba(137, 137, 137, 1);
     margin-top: 0px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .high-section{
+        flex-direction: column;
+        gap: 10px;
+        max-height: 450px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .high-con{
+        max-width: 230px;
+    }
 }
