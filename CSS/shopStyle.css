@@ -13,11 +13,12 @@ body{
     font-weight: 500;
     color: rgba(0, 0, 0, 1);
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .shop-desc{
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
     color: rgba(0, 0, 0, 1);
 }
 
@@ -117,7 +118,8 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgba(250, 243, 234, 1);
-    max-height: 270px;
+    height: 270px;
+
 }
 
 .high-title{
