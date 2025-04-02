@@ -142,7 +142,7 @@ body{
     .high-section{
         flex-direction: column;
         gap: 10px;
-        max-height: 450px;
+        height: 450px;
         justify-content: center;
         align-items: center;
     }
