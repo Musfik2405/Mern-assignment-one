@@ -1,0 +1,89 @@
+/* touch Related style */
+
+.touch{
+
+}
+
+.touch-title{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+.touch-desc{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #9F9F9F;
+    text-align: center;
+}
+.touch-icons{
+    width: 22px;
+    height: 22px;
+}
+
+.touch-name{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.touch-p{
+    margin-top: 0px;
+    font-size:1rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    width: 222px;
+    margin-bottom: 42px;
+}
+.touch-address{
+    gap: 30px;
+
+}
+
+.touch-container{
+    margin-top: 130px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+/* your name Related style */
+
+.your-name{
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.touch-input{
+    width: 528px;
+    height: 75px;
+    background-color:rgba(255, 255, 255, 1) ;
+    border: 1px solid rgba(159, 159, 159, 1);
+    color:rgba(159, 159, 159, 1) ;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 10px;
+    padding-left: 30px;
+    outline: none;
+}
+
+.big-input{
+    height: 120px;
+    margin-bottom: 50px;
+}
+
+.submit-btn{
+    background-color: rgba(184, 142, 47, 1);
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 13px 69px;
+    border: 1px solid rgba(184, 142, 47, 1);
+    border-radius: 5px;
+}
+
+.touch-btn{
+    /* text-align: center; */
+}
